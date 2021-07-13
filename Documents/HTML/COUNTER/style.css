@@ -1,0 +1,52 @@
+body{
+    background-image: url("counter-image.jpeg");
+    width: 400px;
+    height: 500px;
+    border:solid white thin;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-top: 85px;
+    margin-bottom: 80px;
+    margin-left: 500px;
+    text-align: center;
+}
+
+.counter{
+    color: white;
+    font-size: 3em;
+    padding: 20px;
+    font-family: sans-serif;
+}
+#number{
+    color: green;
+   font-size:  12em;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+#lowercount{
+    background-color: #0d2c54;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: medium;
+    color: white;
+}
+#addcount{
+    background-color: #0d2c54;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: medium;
+    color: white;
+}
+@media  screen and  (min-width: 375px) {
+     body{
+         width: 50vh;
+     }
+}
+@media screen and (max-width: 1440px) {
+     body{
+         width: 50vh;
+     }
+}
